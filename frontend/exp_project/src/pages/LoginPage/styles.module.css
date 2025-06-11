@@ -1,0 +1,60 @@
+.loginWrapper {
+    position: relative;
+    min-height: 100vh;
+    background-color: #000B1B;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .loginContainer {
+    padding: 0.5rem;
+  }
+  
+  .loginTitle {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .loginBtn {
+    width: 100% !important;
+    margin-top: 20px !important;
+    border-radius: 50px !important;
+    font-weight: 500 !important;
+    font-size: larger !important;
+    background-color: #005bb5 !important;
+  }
+
+  .loginBtn:hover {
+    background-color: #247ee6 !important;
+  }
+
+  .registerArea {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .registerArea p {
+    color: azure;
+    margin-top: 20px;
+  }
+
+  .registerArea a {
+    color:#89C0F0;
+  }
+
+  .registerArea a:hover {
+    color:#5e91bd;
+  }
+
+  .waveContainer {
+    position: relative;
+    height: 100%;
+  }

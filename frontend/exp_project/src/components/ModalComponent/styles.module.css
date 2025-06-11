@@ -1,0 +1,40 @@
+.customModalDialog {
+  max-width: 400px !important;
+}
+
+.customModalContent {
+  border-radius: 20px !important;
+  padding: 20px !important;
+  background-color: rgba(85, 119, 148, 0.95) !important;
+}
+
+.customModalHeader {
+  border-bottom: none !important;
+}
+
+.customModalTitle {
+  display: flex !important;
+  color: white !important;
+}
+
+.customModalBody {
+  color: white;
+}
+
+.customModalFooter {
+  border-top: none !important;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px !important;
+}
+
+.btn {
+  border-radius: 20px !important;
+  width: 100%;
+  background-color: #005bb5 !important;
+  border: none !important;
+}
+
+.btn:hover {
+  background-color: #247ee6 !important;
+}
